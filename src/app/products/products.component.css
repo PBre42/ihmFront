@@ -1,0 +1,27 @@
+#haha{
+    overflow-y: auto;
+    max-height: 100%;
+}
+.card {
+    width: 50%;
+    margin:auto;
+    padding:20px;
+    box-shadow: 10px 10px 20px rgb(165, 165, 165);
+}
+
+body {
+    background: #eee
+    
+}
+img{
+    border-radius: 10px;
+}
+h1{
+    cursor:default;
+    text-align: center;
+    font-weight: 300;
+    font-size: 150px;
+    font-family: 'Neonderthaw', cursive;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}

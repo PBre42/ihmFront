@@ -1,0 +1,21 @@
+<div id="haha">
+    <h1 unselectable="on" onselectstart="return false;" onmousedown="return false;">Users</h1>
+    <div class="d-flex justify-content-center container mt-5">
+        <div class="row">
+            <div class="card p-3 bg-white" *ngFor="let user of this.users | async"><i class="fa fa-apple"></i>
+                <div class="about-product text-center mt-2">
+                    <div>
+                        <h4>{{user.firstname}} {{user.lastname}}</h4>
+                        <h6 class="mt-0 text-black-50">{{user.age}} ans</h6>
+                        <button name="detail" (click)="detailsUser(user)">+</button>
+                        <div *ngIf="user.selected">
+                            <li>Mail : {{user!.mail}}</li>
+                            <li>Country : {{user!.country}}</li>
+                            <li>City : {{user!.city}}</li>
+                        </div>
+                    </div>
+                </div>  
+            </div>           
+        </div>   
+    </div>
+</div>

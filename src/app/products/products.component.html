@@ -1,0 +1,19 @@
+<div id="haha">
+    <h1 unselectable="on" onselectstart="return false;" onmousedown="return false;">Products</h1>
+    <div class="d-flex justify-content-center container mt-5">
+        <div class="row">
+            <div class="card p-3 bg-white" *ngFor="let product of this.products | async"><i class="fa fa-apple"></i>
+                <div class="about-product text-center mt-2">
+                    <div>
+                        <h4>{{product.name}}  {{product.price}}€</h4>
+                        <button name="details" (click)="detailsProduct(product)">+</button>
+                    </div>
+                    <div *ngIf="product.selected">
+                        <li>Description : {{product!.description}}</li>
+                        <li>Weight : {{product!.weight_g}}g</li>
+                    </div>
+                </div>
+            </div><br><br>         
+        </div>   
+    </div>
+</div>

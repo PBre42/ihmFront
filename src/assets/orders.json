@@ -1,0 +1,26 @@
+[
+    {
+        "number" : "#1",
+        "product" : "Lampe de bureau",
+        "description" : "Lampe Jieldé noir mat",
+        "quantity" : "1",
+        "price" : "50",
+        "date" : "11/02/2022"
+    },
+    {
+        "number" : "#2",
+        "product" : "Chaise de bureau",
+        "description" : "Chaise de bureau noire avec acoudoirs",
+        "quantity" : "1",
+        "price" : "3",
+        "date" : "10/10/2020"
+    },
+    {
+        "number" : "#3",
+        "product" : "Figurine",
+        "description" : "figurine Kaido aux 100 bêtes",
+        "quantity" : "1",
+        "price" : "130",
+        "date" : "14/02/2022"
+    }
+]

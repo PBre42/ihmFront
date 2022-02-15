@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Lampe de bureau",
+        "description" : "Lampe Jieldé noir mat",
+        "price" : "50",
+        "weight_g" : "3000"
+    },
+    {        
+        "name" : "Chaise de bureau",
+        "description" : "Chaise de bureau noire avec acoudoirs",        
+        "price" : "3",
+        "weight_g" : "4000"
+    },
+    {        
+        "name" : "Figurine",
+        "description" : "figurine Kaido aux 100 bêtes",        
+        "price" : "130",
+        "weight_g" : "5000"
+    }
+]

@@ -1,0 +1,19 @@
+<div>
+    <div class="form-group">
+        <label for="mail">Mail address</label>
+        <input type="email" [(ngModel)]="mail" class="form-control" placeholder="Enter mail" id="mail">
+    </div>
+</div>
+<div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea type="text" [(ngModel)]="message" class="form-control" placeholder="Enter message" id="message"></textarea>
+    </div>
+</div>
+<div>
+    <button type="submit" class="btn btn-primary" (click)="send()">Send</button>
+</div>
+
+<div  *ngIf="sent" class="alert alert-success" role="alert">
+    Your message has been sent !
+</div>

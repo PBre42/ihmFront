@@ -1,0 +1,26 @@
+[
+    {
+        "firstname" : "Pierre",
+        "lastname" : "Brégnac",
+        "age" : "22",
+        "mail" : "tom.bregnac@gmail.com",
+        "country" : "France",
+        "city" : "Saint-Etienne"
+    },
+    {
+        "firstname" : "Richard",
+        "lastname" : "Anderson",
+        "age" : "28",
+        "mail" : "ra@gmail.com",
+        "country" : "UK",
+        "city" : "Greenwich"
+    },
+    {
+        "firstname" : "Jean",
+        "lastname" : "Bombeur",
+        "age" : "26",
+        "mail" : "sandwich@gmail.com",
+        "country" : "France",
+        "city" : "Sète"
+    }
+]
